@@ -1,11 +1,12 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #152238;
 }
 
 .todo-container {
@@ -38,7 +39,7 @@ h1 {
 
 button {
     padding: 10px 15px;
-    background-color: #5cb85c;
+    background-color: #5c62b8;
     color: white;
     border: none;
     border-radius: 0 5px 5px 0;
@@ -46,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: #4cae4c;
+    background-color: #4745a9;
 }
 
 ul {
@@ -83,3 +84,4 @@ li:last-child {
 
 input[type=text]:focus{
     outline: 0px solid rgb(210, 210, 210);     /* oranges! yey */
+}
